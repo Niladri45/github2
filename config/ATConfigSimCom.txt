@@ -1,0 +1,55 @@
+AT
+
+
+AT+C5GREG?
+Ideal Output:
++C5GREG: 0,1
+
+
+AT+CGDCONT?
+Ideal Output:
++CGDCONT: 1,"IP","","0.0.0.0",0,0,0,0,,,,,,,,,"",,,,0
++CGDCONT: 2,"IPV4V6","","192.168.2.2",0,0,0,0,,,,,,,,,"",,,,0
++CGDCONT: 3,"IPV4V6","","0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0",0,0,0,0,,,,,,,,,"",,,,0
++CGDCONT: 38,"IPV6","v2x_ip","0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0",0,0,0,0,,,,,,,,,"",,,,0
++CGDCONT: 39,"IPV6","v2x_non_ip","0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0",0,0,0,0,,,,,,,,,"",,,,0
++CGDCONT: 4,"IPV4V6","","0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0",0,0,0,0,,,,,,,,,"",,,,0
++CGDCONT: 5,"IPV4V6","","0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0",0,0,0,0,,,,,,,,,"",,,,0
++CGDCONT: 6,"IPV4V6","","0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0",0,0,0,0,,,,,,,,,"",,,,0
+
+
+AT+COPS?
+Ideal Output:
++COPS: 0,0,"Amarisoft Nil Network",11
+
+
+AT+CGACT?
+Ideal Output:
++CGACT: 1,0
++CGACT: 2,0
++CGACT: 3,0
++CGACT: 38,0
++CGACT: 39,0
++CGACT: 4,0
++CGACT: 5,0
++CGACT: 6,1
+
+
+AT+CSQ
+Ideal Output:
++CSQ: 14,99
+
+
+AT+NETOPEN
+Ideal Output:
+OK
+
+
+AT+IPADDR
+Ideal Output:
++IPADDR: 192.168.2.2
+
+
+AT+CFUN?
+Ideal Output:
++CFUN: 1
